@@ -1,0 +1,14 @@
+{
+  "name": "themicons",
+  "description": "Them thar icons are real swell.",
+  "version": "1.0.0",
+  "homepage": "http://www.cedaro.com/",
+  "author": "Cedaro",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-svgmin": "~2.0.0",
+    "grunt-webfont": "~0.4.8",
+    "js-yaml": "~3.2.4",
+    "matchdep": "~0.3.0"
+  }
+}

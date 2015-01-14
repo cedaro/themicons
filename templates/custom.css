@@ -1,0 +1,31 @@
+<% if (fontfaceStyles) { %><% if (fontSrc1) { %>@font-face {
+	font-family: "<%= fontBaseName %>";
+	src: <%= fontSrc1 %>;
+	font-weight: normal;
+	font-style: normal;
+}
+
+<% } %>@font-face {
+	font-family: "<%= fontBaseName %>";<% if (fontSrc1) { %>
+	src: <%= fontSrc1 %>;<% }%>
+	src: <%= fontSrc2 %>;
+	font-weight: normal;
+	font-style: normal;
+}
+<% } %>
+<% if (baseStyles) { %>.<%= baseClass %> {
+	display: inline-block;
+	font-family: "<%= fontBaseName %>";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	speak: none;
+	text-decoration: inherit;
+	text-transform: none;
+	vertical-align: middle;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+<% } %><% if (iconsStyles) { %><% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+.<%= classPrefix %><%= glyphs[glyphIdx] %>:before { content: "\<%= codepoints[glyphIdx] %>";}<% } } %>

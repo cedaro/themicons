@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="bounds" display="none">
+	<rect display="inline" fill="none" width="24" height="24"/>
+</g>
+<g id="Layer_2">
+	<path d="M18,3H6C4.346,3,3,4.346,3,6v12c0,1.654,1.346,3,3,3h12c1.654,0,3-1.346,3-3V6C21,4.346,19.654,3,18,3z M12,9
+		c1.654,0,3,1.346,3,3c0,1.654-1.346,3-3,3c-1.654,0-3-1.346-3-3C9,10.346,10.346,9,12,9z M19,18c0,0.551-0.449,1-1,1H6
+		c-0.551,0-1-0.449-1-1v-7h2.101C7.035,11.323,7,11.657,7,12c0,2.761,2.239,5,5,5s5-2.239,5-5c0-0.343-0.035-0.677-0.101-1H19V18z
+		 M19,7.5C19,7.776,18.776,8,18.5,8h-2C16.224,8,16,7.776,16,7.5v-2C16,5.224,16.224,5,16.5,5h2C18.776,5,19,5.224,19,5.5V7.5z"/>
+</g>
+</svg>
