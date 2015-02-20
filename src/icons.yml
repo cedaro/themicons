@@ -2,7 +2,7 @@
 
 icons:
   # Brand Icons
-  # Last Used: f117
+  # Last Used: f11a
   - name:    Amazon
     id:      amazon
     unicode: f100
@@ -75,13 +75,19 @@ icons:
   - name:    Youtube
     id:      youtube
     unicode: f117
+  - name:    Vine
+    id:      vine
+    unicode: f11a
 
 
   # Media Icons
-  # Last Used: f159
+  # Last Used: f15c
   - name:    Fast-forward
     id:      fast-forward
     unicode: f150
+  - name:    Loop
+    id:      loop
+    unicode: f15a
   - name:    Pause
     id:      pause
     unicode: f151
@@ -91,9 +97,15 @@ icons:
   - name:    Playlist
     id:      playlist
     unicode: f153
+  - name:    Repeat
+    id:      repeat
+    unicode: f15b
   - name:    Rewind
     id:      rewind
     unicode: f154
+  - name:    Shuffle
+    id:      shuffle
+    unicode: f15c
   - name:    Skip-ahead
     id:      skip-ahead
     unicode: f155
@@ -146,7 +158,7 @@ icons:
 
 
   # General Icons
-  # Last Used: f214
+  # Last Used: f217
   - name:    Arrow Down
     id:      arrow-down
     unicode: f200
@@ -159,6 +171,9 @@ icons:
   - name:    Arrow Up
     id:      arrow-up
     unicode: f203
+  - name:    Cancel
+    id:      cancel
+    unicode: f215
   - name:    Caret Down
     id:      caret-down
     unicode: f204
@@ -186,6 +201,9 @@ icons:
   - name:    Close
     id:      close
     unicode: f20c
+  - name:    Error
+    id:      error
+    unicode: f216
   - name:    External
     id:      external
     unicode: f20d
@@ -198,15 +216,24 @@ icons:
   - name:    Link (Alt)
     id:      link-alt
     unicode: f210
+  - name:    Loading
+    id:      loading
+    unicode: f217
   - name:    Mail
     id:      mail
     unicode: f211
   - name:    Menu
     id:      menu
     unicode: f212
+  - name:    Minus
+    id:      minus
+    unicode: f118
   - name:    Person
     id:      person
     unicode: f213
+  - name:    Plus
+    id:      plus
+    unicode: f119
   - name:    Restore
     id:      restore
     unicode: f214
