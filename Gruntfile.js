@@ -41,13 +41,14 @@ module.exports = function( grunt ) {
 				options: {
 					codepoints: getCodePoints(),
 					destHtml: 'dist/fonts',
-					embed: true,
+					embed: 'woff2,woff',
 					engine: 'node',
 					font: 'themicons',
 					hashes: false,
 					htmlDemo: true,
 					htmlDemoTemplate: 'templates/demo.html',
 					ligatures: false,
+					normalize: true,
 					relativeFontPath: '../fonts/',
 					styles: 'font,icon',
 					stylesheet: 'css',
@@ -55,7 +56,9 @@ module.exports = function( grunt ) {
 					templateOptions: {
 						'baseClass': 'themicon',
 						'classPrefix': 'themicon-'
-					}
+					},
+					order: 'eot,woff2,woff,ttf',
+					types: 'eot,ttf,woff,woff2'
 				}
 			}
 		}
