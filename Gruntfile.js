@@ -7,6 +7,8 @@ module.exports = function( grunt ) {
 
 	grunt.initConfig({
 
+		clean: [ 'build', 'dist/fonts' ],
+
 		svgmin: {
 			themicons: {
 				options: {
@@ -60,7 +62,7 @@ module.exports = function( grunt ) {
 
 	});
 
-	grunt.registerTask( 'default', [ 'svgmin', 'webfont' ] );
+	grunt.registerTask( 'default', [ 'clean', 'svgmin', 'webfont' ] );
 
 	// https://mathiasbynens.be/notes/javascript-unicode
 	function getCodePoints() {
