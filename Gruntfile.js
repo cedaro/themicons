@@ -57,8 +57,8 @@ module.exports = function( grunt ) {
 						'baseClass': 'themicon',
 						'classPrefix': 'themicon-'
 					},
-					order: 'eot,woff2,woff,ttf',
-					types: 'eot,ttf,woff,woff2'
+					order: 'woff2,woff,ttf',
+					types: 'ttf,woff,woff2'
 				}
 			}
 		}
