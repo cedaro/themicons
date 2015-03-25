@@ -41,7 +41,6 @@ module.exports = function( grunt ) {
 				options: {
 					codepoints: getCodePoints(),
 					destHtml: 'dist/fonts',
-					embed: 'woff2,woff',
 					engine: 'node',
 					font: 'themicons',
 					hashes: false,
