@@ -34,7 +34,7 @@ module.exports = function( grunt ) {
 		},
 
 		webfont: {
-			audiotheme: {
+			themicons: {
 				src: 'build/*.svg',
 				dest: 'dist/fonts',
 				destCss: 'dist/css',
