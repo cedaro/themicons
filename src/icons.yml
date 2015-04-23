@@ -124,41 +124,41 @@ icons:
 
 
   # Post Format Icons
-  # Last Used:
+  # Last Used: f1d9
   - name:    Aside
     id:      format-aside
-    unicode:
+    unicode: f1d0
   - name:    Audio
     id:      format-audio
-    unicode:
+    unicode: f1d1
   - name:    Chat
     id:      format-chat
-    unicode:
+    unicode: f1d2
   - name:    Gallery
     id:      format-gallery
-    unicode:
+    unicode: f1d3
   - name:    Image
     id:      format-image
-    unicode:
+    unicode: f1d4
   - name:    Link
     id:      format-link
-    unicode:
+    unicode: f1d5
   - name:    Quote
     id:      format-quote
-    unicode:
+    unicode: f1d6
   - name:    Standard
     id:      format-standard
-    unicode:
+    unicode: f1d7
   - name:    Status
     id:      format-status
-    unicode:
+    unicode: f1d8
   - name:    Video
     id:      format-video
-    unicode:
+    unicode: f1d9
 
 
   # General Icons
-  # Last Used: f217
+  # Last Used: f21f
   - name:    Arrow Down
     id:      arrow-down
     unicode: f200
@@ -171,6 +171,9 @@ icons:
   - name:    Arrow Up
     id:      arrow-up
     unicode: f203
+  - name:    Calendar
+    id:      calendar
+    unicode: f21a
   - name:    Cancel
     id:      cancel
     unicode: f215
@@ -186,6 +189,12 @@ icons:
   - name:    Caret Up
     id:      caret-up
     unicode: f207
+  - name:    Cart
+    id:      cart
+    unicode: f218
+  - name:    Category
+    id:      category
+    unicode: f21b
   - name:    Chevron Down
     id:      chevron-down
     unicode: f208
@@ -201,6 +210,12 @@ icons:
   - name:    Close
     id:      close
     unicode: f20c
+  - name:    Comment
+    id:      comment
+    unicode: f219
+  - name:    Edit
+    id:      edit
+    unicode: f21f
   - name:    Error
     id:      error
     unicode: f216
@@ -237,3 +252,12 @@ icons:
   - name:    Restore
     id:      restore
     unicode: f214
+  - name:    Search
+    id:      search
+    unicode: f21d
+  - name:    Tag
+    id:      tag
+    unicode: f21c
+  - name:    Time
+    id:      time
+    unicode: f21e
