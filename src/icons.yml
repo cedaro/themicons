@@ -158,7 +158,7 @@ icons:
 
 
   # General Icons
-  # Last Used: f21f
+  # Last Used: f221
   - name:    Arrow Down
     id:      arrow-down
     unicode: f200
@@ -216,6 +216,9 @@ icons:
   - name:    Edit
     id:      edit
     unicode: f21f
+  - name:    Ellipsis
+    id:      ellipsis
+    unicode: f220
   - name:    Error
     id:      error
     unicode: f216
@@ -225,6 +228,9 @@ icons:
   - name:    Feed
     id:      feed
     unicode: f20e
+  - name:    Kebab
+    id:      kebab
+    unicode: f221
   - name:    Link
     id:      link
     unicode: f20f
