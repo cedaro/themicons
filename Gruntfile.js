@@ -48,6 +48,7 @@ module.exports = function( grunt ) {
 					htmlDemoTemplate: 'templates/demo.html',
 					ligatures: false,
 					normalize: true,
+					optimize: false,
 					relativeFontPath: '../fonts/',
 					styles: 'font,icon',
 					stylesheet: 'css',
