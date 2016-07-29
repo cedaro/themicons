@@ -2,7 +2,7 @@
 
 icons:
   # Brand Icons
-  # Last Used: f11a
+  # Last Used: f11b
   - name:    Amazon
     id:      amazon
     unicode: f100
@@ -21,6 +21,9 @@ icons:
   - name:    Flickr
     id:      flickr
     unicode: f105
+  - name:    GitHub
+    id:      github
+    unicode: f11b
   - name:    Google Play
     id:      googleplay
     unicode: f106
