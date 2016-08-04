@@ -2,7 +2,7 @@
   "name": "themicons",
   "description": "Them thar icons are real swell.",
   "version": "2.0.0",
-  "homepage": "http://www.cedaro.com/",
+  "homepage": "https://www.cedaro.com/",
   "author": "Cedaro",
   "devDependencies": {
     "grunt": "^1.0.1",
