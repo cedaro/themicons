@@ -2,7 +2,7 @@
 
 icons:
   # Brand Icons
-  # Last Used: f11b
+  # Last Used: f11d
   - name:    Amazon
     id:      amazon
     unicode: f100
@@ -12,6 +12,9 @@ icons:
   - name:    Bandcamp
     id:      bandcamp
     unicode: f102
+  - name:    CD Baby
+    id:      cd-baby
+    unicode: f11c
   - name:    Facebook
     id:      facebook
     unicode: f103
@@ -63,6 +66,9 @@ icons:
   - name:    Spotify
     id:      spotify
     unicode: f112
+  - name:    Tidal
+    id:      tidal
+    unicode: f11d
   - name:    Tumblr
     id:      tumblr
     unicode: f113
