@@ -2,7 +2,7 @@
 
 icons:
   # Brand Icons
-  # Last Used: f11d
+  # Last Used: f120
   - name:    Amazon
     id:      amazon
     unicode: f100
@@ -45,6 +45,9 @@ icons:
   - name:    LinkedIn
     id:      linkedin
     unicode: f10b
+  - name:    Mixcloud
+    id:      mixcloud
+    unicode: f11e
   - name:    Pinterest
     id:      pinterest
     unicode: f10c
@@ -78,15 +81,21 @@ icons:
   - name:    Vimeo
     id:      vimeo
     unicode: f115
-  - name:    WordPress
-    id:      wordpress
-    unicode: f116
-  - name:    Youtube
-    id:      youtube
-    unicode: f117
   - name:    Vine
     id:      vine
     unicode: f11a
+  - name:    VK
+    id:      vk
+    unicode: f11f
+  - name:    WordPress
+    id:      wordpress
+    unicode: f116
+  - name:    Yelp
+    id:      yelp
+    unicode: f120
+  - name:    Youtube
+    id:      youtube
+    unicode: f117
 
 
   # Media Icons
