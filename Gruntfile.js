@@ -41,7 +41,7 @@ module.exports = function( grunt ) {
 				options: {
 					codepoints: getCodePoints(),
 					destHtml: 'dist/fonts',
-					engine: 'node',
+					engine: 'fontforge',
 					font: 'themicons',
 					hashes: false,
 					htmlDemo: true,
