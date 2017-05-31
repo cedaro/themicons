@@ -9,6 +9,8 @@ module.exports = function( grunt ) {
 
 		clean: [ 'build', 'dist/fonts' ],
 
+		pkg: grunt.file.readJSON( 'package.json' ),
+
 		svgmin: {
 			themicons: {
 				options: {
@@ -42,7 +44,9 @@ module.exports = function( grunt ) {
 					codepoints: getCodePoints(),
 					destHtml: 'dist/fonts',
 					engine: 'node',
+					descent: 0,
 					font: 'themicons',
+					fontFamilyName: 'Themicons',
 					hashes: false,
 					htmlDemo: true,
 					htmlDemoTemplate: 'templates/demo.html',
@@ -50,6 +54,7 @@ module.exports = function( grunt ) {
 					normalize: true,
 					optimize: false,
 					relativeFontPath: '../fonts/',
+					round: 0,
 					styles: 'font,icon',
 					stylesheet: 'css',
 					template: 'templates/custom.css',
@@ -58,7 +63,8 @@ module.exports = function( grunt ) {
 						'classPrefix': 'themicon-'
 					},
 					order: 'woff2,woff,ttf',
-					types: 'ttf,woff,woff2'
+					types: 'ttf,woff,woff2',
+					version: '<%= pkg.version %>'
 				}
 			}
 		}
