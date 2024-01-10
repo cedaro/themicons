@@ -15,10 +15,15 @@ module.exports = function( grunt ) {
 			themicons: {
 				options: {
 					plugins: [
-						{ convertPathData: false },
-						{ mergePaths: false },
-						{ removeViewBox: false },
-						{ removeUselessStrokeAndFill: false }
+						{
+							name: 'preset-default',
+							params: {
+								convertPathData: false,
+								mergePaths: false,
+								removeViewBox: false,
+								removeUselessStrokeAndFill: false
+							}
+						}
 					]
 				},
 				files: [
@@ -79,7 +84,7 @@ module.exports = function( grunt ) {
 			codePoints = {},
 			yaml = require( 'js-yaml' );
 
-		data = yaml.safeLoad( grunt.file.read( 'src/icons.yml' ) );
+		data = yaml.load( grunt.file.read( 'src/icons.yml' ) );
 
 		for ( i in data.icons ) {
 			icon = data.icons[ i ];

@@ -5,11 +5,11 @@
   "homepage": "https://www.cedaro.com/",
   "author": "Cedaro",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-svgmin": "^4.0.0",
-    "grunt-webfont": "^1.4.0",
-    "js-yaml": "^3.6.1",
-    "matchdep": "^1.0.1"
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-svgmin": "^7.0.0",
+    "grunt-webfonts": "^5.0.0",
+    "js-yaml": "^4.1.0",
+    "matchdep": "^2.0.0"
   }
 }
