@@ -1,4 +1,5 @@
 @font-face {
+	font-display: swap;
 	font-family: "themicons";
 	src: url("../fonts/themicons.woff2") format("woff2"),
 		url("../fonts/themicons.woff") format("woff"),
@@ -23,6 +24,7 @@
 }
 
 .themicon-amazon:before { content: "\f100";}
+.themicon-apple-music:before { content: "\f124";}
 .themicon-apple:before { content: "\f101";}
 .themicon-arrow-down:before { content: "\f200";}
 .themicon-arrow-left:before { content: "\f201";}
@@ -100,7 +102,9 @@
 .themicon-spotify:before { content: "\f112";}
 .themicon-stop:before { content: "\f157";}
 .themicon-tag:before { content: "\f21c";}
+.themicon-threads:before { content: "\f121";}
 .themicon-tidal:before { content: "\f11d";}
+.themicon-tiktok:before { content: "\f122";}
 .themicon-time:before { content: "\f21e";}
 .themicon-tumblr:before { content: "\f113";}
 .themicon-twitter:before { content: "\f114";}
@@ -110,5 +114,6 @@
 .themicon-volume-off:before { content: "\f158";}
 .themicon-volume-on:before { content: "\f159";}
 .themicon-wordpress:before { content: "\f116";}
+.themicon-x:before { content: "\f123";}
 .themicon-yelp:before { content: "\f120";}
 .themicon-youtube:before { content: "\f117";}
