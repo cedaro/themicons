@@ -2,13 +2,16 @@
 
 icons:
   # Brand Icons
-  # Last Used: f120
+  # Last Used: f124
   - name:    Amazon
     id:      amazon
     unicode: f100
   - name:    Apple
     id:      apple
     unicode: f101
+  - name:    Apple Music
+    id:      apple-music
+    unicode: f124
   - name:    Bandcamp
     id:      bandcamp
     unicode: f102
@@ -69,9 +72,15 @@ icons:
   - name:    Spotify
     id:      spotify
     unicode: f112
+  - name:    Threads
+    id:      threads
+    unicode: f121
   - name:    Tidal
     id:      tidal
     unicode: f11d
+  - name:    TikTok
+    id:      tiktok
+    unicode: f122
   - name:    Tumblr
     id:      tumblr
     unicode: f113
@@ -90,6 +99,9 @@ icons:
   - name:    WordPress
     id:      wordpress
     unicode: f116
+  - name:    X
+    id:      x
+    unicode: f123
   - name:    Yelp
     id:      yelp
     unicode: f120
