@@ -1,4 +1,5 @@
 <% if (fontfaceStyles) { %>@font-face {
+	font-display: swap;
 	font-family: "<%= fontBaseName %>";<% if (fontSrc1) { %>
 	src: <%= fontSrc1 %>;<% }%>
 	src: <%= fontSrc2 %>;
