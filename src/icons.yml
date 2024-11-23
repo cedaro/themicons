@@ -2,7 +2,7 @@
 
 icons:
   # Brand Icons
-  # Last Used: f124
+  # Last Used: f125
   - name:    Amazon
     id:      amazon
     unicode: f100
@@ -14,6 +14,9 @@ icons:
     unicode: f124
   - name:    Bandcamp
     id:      bandcamp
+    unicode: f125
+  - name:    Bluesky
+    id:      bluesky
     unicode: f102
   - name:    CD Baby
     id:      cd-baby
