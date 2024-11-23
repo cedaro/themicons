@@ -14,10 +14,10 @@ icons:
     unicode: f124
   - name:    Bandcamp
     id:      bandcamp
-    unicode: f125
+    unicode: f102
   - name:    Bluesky
     id:      bluesky
-    unicode: f102
+    unicode: f125
   - name:    CD Baby
     id:      cd-baby
     unicode: f11c
